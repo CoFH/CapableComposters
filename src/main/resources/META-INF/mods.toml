@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[${forge_major_version},)"
+issueTrackerURL = "https://github.com/cofh/feedback"
+license = "CoFH - Don't Be A Jerk (Learn, Don't Steal)"
+
+[[mods]]
+modId = "capable_composters"
+version = "${file.jarVersion}"
+displayName = "Capable Composters"
+updateJSONURL = "https://raw.github.com/cofh/version/main/capable_composters/update.json"
+displayURL = "https://teamcofh.com/"
+logoFile = "logo.png"
+credits = "Team CoFH"
+authors = "King Lemming"
+description = '''
+Adds Capabilities to Composters! Specifically, the item interaction kind. Improves interoperability all around, including Dispenser interactions.
+
+Suitable for use in basically every modpack ever.
+'''
+[[dependencies.capable_composters]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[${mc_version},)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.capable_composters]]
+modId = "forge"
+mandatory = true
+versionRange = "[${forge_version},)"
+ordering = "AFTER"
+side = "BOTH"

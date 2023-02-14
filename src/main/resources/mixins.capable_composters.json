@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cofh.capable_composters.mixin",
+  "refmap": "mixins.capable_composters.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "client": [],
+  "mixins": [
+    "ComposterBlockMixin",
+    "DispenserBlockMixin",
+    "PistonBaseBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
