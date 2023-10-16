@@ -1,7 +1,7 @@
-package cofh.capable_composters.init;
+package cofh.capablecomposters.init;
 
-import cofh.capable_composters.CapableComposters;
-import cofh.capable_composters.block.entity.ComposterBlockEntity;
+import cofh.capablecomposters.CapableComposters;
+import cofh.capablecomposters.block.entity.ComposterBlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.registries.RegistryObject;
 

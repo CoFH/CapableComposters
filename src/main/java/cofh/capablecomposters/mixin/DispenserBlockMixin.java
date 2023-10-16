@@ -1,6 +1,6 @@
-package cofh.capable_composters.mixin;
+package cofh.capablecomposters.mixin;
 
-import cofh.capable_composters.util.ComposterUtils;
+import cofh.capablecomposters.util.ComposterUtils;
 import net.minecraft.core.dispenser.DispenseItemBehavior;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.ComposterBlock;

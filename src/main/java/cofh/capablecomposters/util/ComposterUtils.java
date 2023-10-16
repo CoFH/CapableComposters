@@ -1,4 +1,4 @@
-package cofh.capable_composters.util;
+package cofh.capablecomposters.util;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.dispenser.DispenseItemBehavior;
@@ -23,7 +23,7 @@ public class ComposterUtils {
             BlockState state = level.getBlockState(pos);
 
             if (state.getBlock() instanceof ComposterBlock) {
-                BlockState newState = ComposterBlock.insertItem(state, level, item, pos);
+                BlockState newState = ComposterBlock.insertItem(null, state, level, item, pos);
                 if (state != newState && newState.getValue(ComposterBlock.LEVEL) == 7) {
                     level.levelEvent(1500, pos, 1);
                 }
