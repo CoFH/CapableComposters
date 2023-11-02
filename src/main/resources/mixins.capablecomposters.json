@@ -1,8 +1,8 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "cofh.capable_composters.mixin",
-  "refmap": "mixins.capable_composters.refmap.json",
+  "package": "cofh.capablecomposters.mixin",
+  "refmap": "mixins.capablecomposters.refmap.json",
   "target": "@env(DEFAULT)",
   "compatibilityLevel": "JAVA_8",
   "client": [],
