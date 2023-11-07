@@ -1,6 +1,6 @@
 package cofh.capablecomposters.mixin;
 
-import cofh.capablecomposters.block.entity.ComposterBlockEntity;
+import cofh.capablecomposters.common.block.entity.ComposterBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.Level;

@@ -1,6 +1,6 @@
-package cofh.capablecomposters.capabilities;
+package cofh.capablecomposters.common.capabilities;
 
-import cofh.capablecomposters.block.entity.ComposterBlockEntity;
+import cofh.capablecomposters.common.block.entity.ComposterBlockEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Blocks;

@@ -1,6 +1,6 @@
 package cofh.capablecomposters;
 
-import cofh.capablecomposters.init.BlockEntityTypes;
+import cofh.capablecomposters.init.registries.ModBlockEntityTypes;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -21,7 +21,7 @@ public class CapableComposters {
 
         BLOCK_ENTITY_TYPES.register(modEventBus);
 
-        BlockEntityTypes.register();
+        ModBlockEntityTypes.register();
     }
 
 }

@@ -1,15 +1,15 @@
-package cofh.capablecomposters.init;
+package cofh.capablecomposters.init.registries;
 
 import cofh.capablecomposters.CapableComposters;
-import cofh.capablecomposters.block.entity.ComposterBlockEntity;
+import cofh.capablecomposters.common.block.entity.ComposterBlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.registries.RegistryObject;
 
 import static net.minecraft.world.level.block.Blocks.COMPOSTER;
 
-public class BlockEntityTypes {
+public class ModBlockEntityTypes {
 
-    private BlockEntityTypes() {
+    private ModBlockEntityTypes() {
 
     }
 

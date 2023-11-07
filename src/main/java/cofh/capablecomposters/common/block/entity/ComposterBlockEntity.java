@@ -1,7 +1,7 @@
-package cofh.capablecomposters.block.entity;
+package cofh.capablecomposters.common.block.entity;
 
-import cofh.capablecomposters.capabilities.ComposterSlot;
-import cofh.capablecomposters.init.BlockEntityTypes;
+import cofh.capablecomposters.common.capabilities.ComposterSlot;
+import cofh.capablecomposters.init.registries.ModBlockEntityTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -16,7 +16,7 @@ public class ComposterBlockEntity extends BlockEntity {
 
     public ComposterBlockEntity(BlockPos blockPos, BlockState state) {
 
-        super(BlockEntityTypes.COMPOSTER_TILE.get(), blockPos, state);
+        super(ModBlockEntityTypes.COMPOSTER_TILE.get(), blockPos, state);
     }
 
     public void replaceBlockAndUpdate(BlockState newBlockState) {
