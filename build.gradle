@@ -59,7 +59,7 @@ minecraft {
 }
 
 mixin {
-    add(sourceSets.main, "mixins.capable_composters.refmap.json")
+    add(sourceSets.main, "mixins.capablecomposters.refmap.json")
 }
 
 processResources {
@@ -98,7 +98,7 @@ jar {
                 'Implementation-Vendor'   : 'Team CoFH',
                 'Implementation-Version'  : "${mod_version}",
                 'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-                'MixinConfigs'            : 'mixins.capable_composters.json'
+                'MixinConfigs'            : 'mixins.capablecomposters.json'
         ])
     }
 }
